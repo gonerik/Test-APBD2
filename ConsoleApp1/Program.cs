@@ -11,6 +11,7 @@
 
 static int MaxValue(int[] arr)
 {
+    Console.WriteLine("No way!!!");
     int max = 0;
     foreach (int i in arr)
     {
