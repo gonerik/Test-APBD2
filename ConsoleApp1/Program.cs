@@ -8,3 +8,19 @@
 
     return (double)sum / arr.Length;
 }
+
+static int MaxValue(int[] arr)
+{
+    int max = 0;
+    foreach (int i in arr)
+    {
+        if (max < i)
+        {
+            max = i;
+        }
+
+        
+    }
+
+    return max;
+}
