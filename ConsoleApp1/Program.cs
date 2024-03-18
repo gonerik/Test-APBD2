@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿static double AverageValue(int[] arr)
+{
+    int sum = 0;
+    foreach (int i in arr)
+    {
+        sum += i;
+    }
 
-Console.WriteLine("Hello, gjkhk!");
+    return (double)sum / arr.Length;
+}
